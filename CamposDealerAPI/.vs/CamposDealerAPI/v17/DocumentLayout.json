@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\domain\\produtovenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:domain\\produtovenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\models\\vendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:models\\vendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\models\\produtovendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:models\\produtovendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\models\\produtodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:models\\produtodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\models\\clientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:models\\clientedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\domain\\produtovendahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:domain\\produtovendahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:domain\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|c:\\users\\arthur\\documents\\campos dealer webapp\\camposdealerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47F60C3-B985-4C40-B5FF-3BAFFB84438B}|CamposDealerAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\Produto.cs",
+              "RelativeDocumentMoniker": "Domain\\Produto.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\Produto.cs",
+              "RelativeToolTip": "Domain\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:08:12.834Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-19T15:16:07.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:21:06.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\ProdutoDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\ProdutoDBContext.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\ProdutoDBContext.cs",
+              "RelativeToolTip": "Models\\ProdutoDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T03:06:25.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProdutoVendaHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\ProdutoVendaHelper.cs",
+              "RelativeDocumentMoniker": "Domain\\ProdutoVendaHelper.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\ProdutoVendaHelper.cs",
+              "RelativeToolTip": "Domain\\ProdutoVendaHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:59:23.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\ClienteDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteDBContext.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\ClienteDBContext.cs",
+              "RelativeToolTip": "Models\\ClienteDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:22:59.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAywDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T20:12:31.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\Cliente.cs",
+              "RelativeDocumentMoniker": "Domain\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\Cliente.cs",
+              "RelativeToolTip": "Domain\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:43:23.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoVenda.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\ProdutoVenda.cs",
+              "RelativeDocumentMoniker": "Domain\\ProdutoVenda.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Domain\\ProdutoVenda.cs",
+              "RelativeToolTip": "Domain\\ProdutoVenda.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:41:12.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:03:36.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VendasController.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Controllers\\VendasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VendasController.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Controllers\\VendasController.cs",
+              "RelativeToolTip": "Controllers\\VendasController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wEIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T19:41:19.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutoVendaDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\ProdutoVendaDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\ProdutoVendaDBContext.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\ProdutoVendaDBContext.cs",
+              "RelativeToolTip": "Models\\ProdutoVendaDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:48:58.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VendaDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\VendaDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\VendaDBContext.cs",
+              "ToolTip": "C:\\Users\\Arthur\\Documents\\campos dealer WebApp\\CamposDealerAPI\\Models\\VendaDBContext.cs",
+              "RelativeToolTip": "Models\\VendaDBContext.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T20:51:11.546Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

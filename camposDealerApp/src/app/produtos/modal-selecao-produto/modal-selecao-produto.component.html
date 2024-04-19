@@ -1,0 +1,38 @@
+<div class="container px-0">
+  <div class="card ">
+    <div class="card-header">
+      Consulta de produtos
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-12">
+          <label>Filtrar por descrição</label>
+          <input type="text" class="form-control form-control-sm" [(ngModel)]="filtro.descricao"
+            (keyup)="geraListaExibicao()">
+        </div>
+
+      </div>
+
+      <table class="table table-striped mt-5 border">
+        <thead>
+          <tr>
+            <th scope="col">Código do produto</th>
+            <th scope="col">Descrição do produto</th>
+            <th scope="col">Valor unitário</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of listaProdutosExibicao">
+            <td>{{item.idProduto}}</td>
+            <td>{{item.dscProduto}}</td>
+            <td>{{item.vlrUnitario}}</td>
+            <td>
+              <button class="btn btn-sm btn-info" (click)="selecionarProduto(item)">Selecionar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

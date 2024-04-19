@@ -1,0 +1,24 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Informações do cliente</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close()"></button>
+</div>
+<div class="modal-body">
+
+  <div>
+    <form [formGroup]="formCliente">
+
+      <input class="form-control form-control-md mb-2" type="text" name="nmCliente" placeholder="Nome"
+        formControlName="nmCliente">
+
+      <input class="form-control form-control-md mb-2" type="text" name="nmCidade" placeholder="Cidade"
+        formControlName="nmCidade">
+    </form>
+  </div>
+
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="modalRef.close()">
+    Voltar
+  </button>
+  <button type="button" class="btn btn-success" (click)="salvar()">Salvar</button>
+</div>

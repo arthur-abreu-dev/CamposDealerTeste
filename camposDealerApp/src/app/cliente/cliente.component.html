@@ -1,0 +1,47 @@
+<div class="container">
+
+
+  <div class="card mt-5">
+    <div class="card-header">
+      Filtros
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-3">
+          <label>Filtrar por nome</label>
+          <input type="text" class="form-control form-control-sm" [(ngModel)]="filtro.nome" (keyup)="geraListaExibicao()">
+        </div>
+
+        <div class="col-3">
+          <label>Filtrar por cidade</label>
+          <input type="text" class="form-control form-control-sm" [(ngModel)]="filtro.cidade" (keyup)="geraListaExibicao()">
+        </div>
+        <div class="col-6">
+          <button class="btn btn-sm btn-success float-end mt-3" (click)="adicionarCliente()">Novo cliente</button>
+        </div>
+      </div>
+
+      <table class="table table-striped mt-5 border">
+        <thead>
+          <tr>
+            <th scope="col">Código do cliente</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Cidade</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of listaClientesExibicao">
+            <td>{{item.idCliente}}</td>
+            <td>{{item.nmCliente}}</td>
+            <td>{{item.nmCidade}}</td>
+            <td>
+              <button class="btn btn-sm btn-info" (click)="abrirModal(item)">Editar</button>
+              <button class="btn btn-sm btn-danger mx-2" (click)="deletarCliente(item)">Excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+
+
+  <div class="card mt-5">
+    <div class="card-header">
+      Filtros
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-3">
+          <label>Filtrar por cliente</label>
+          <input type="text" class="form-control form-control-sm" [(ngModel)]="filtro.idCliente"
+            (change)="geraListaExibicao()">
+        </div>
+
+        <div class="col-9">
+          <button class="btn btn-sm btn-success float-end mt-3" (click)="adicionarVenda()">Nova
+            venda</button>
+        </div>
+      </div>
+
+      <table class="table table-striped mt-5 border">
+        <thead>
+          <tr>
+            <th scope="col">Código da venda</th>
+            <th scope="col">Data da venda</th>
+            <th scope="col">Valor da venda</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of listaVendasExibicao">
+            <td>{{item.idVenda}}</td>
+            <td>{{item.dthVenda | date: 'dd/MM/yyyy'}}</td>
+            <td>{{item.vlrTotalVenda}}</td>
+            <td>
+              <button class="btn btn-sm btn-info" (click)="abrirDetalhesVenda(item)">Editar</button>
+              <button class="btn btn-sm btn-danger mx-2" (click)="deletarVenda(item)">Excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

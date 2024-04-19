@@ -1,0 +1,45 @@
+<div class="container">
+
+
+  <div class="card mt-5">
+    <div class="card-header">
+      Filtros
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-3">
+          <label>Filtrar por descrição</label>
+          <input type="text" class="form-control form-control-sm" [(ngModel)]="filtro.descricao"
+            (keyup)="geraListaExibicao()">
+        </div>
+
+        <div class="col-9">
+          <button class="btn btn-sm btn-success float-end mt-3" (click)="adicionarProduto()">Novo
+            produto</button>
+        </div>
+      </div>
+
+      <table class="table table-striped mt-5 border">
+        <thead>
+          <tr>
+            <th scope="col">Código do produto</th>
+            <th scope="col">Descrição do produto</th>
+            <th scope="col">Valor unitário</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of listaProdutosExibicao">
+            <td>{{item.idProduto}}</td>
+            <td>{{item.dscProduto}}</td>
+            <td>{{item.vlrUnitario}}</td>
+            <td>
+              <button class="btn btn-sm btn-info" (click)="abrirModal(item)">Editar</button>
+              <button class="btn btn-sm btn-danger mx-2" (click)="deletarProduto(item)">Excluir</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

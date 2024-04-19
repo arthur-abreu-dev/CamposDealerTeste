@@ -1,0 +1,80 @@
+<div class="container">
+
+  <form [formGroup]="formVenda">
+
+    <div class="card mt-5">
+      <div class="card-header">
+        Detalhes da Venda
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-3">
+            <label>Cliente</label>
+            <ng-select class="form-control form-control-sm" [items]="listaClientes" bindLabel="nmCliente"
+              bindValue="idCliente" formControlName="idCliente">
+            </ng-select>
+          </div>
+          <div class="col-2">
+            <label>Data da venda</label>
+            <input class="form-control form-control-sm mb-2" type="text" name="dthVenda" formControlName="dthVenda" [readOnly]="true">
+          </div>
+
+          <div class="col-3">
+            <button class="btn btn-sm btn-info mt-4" (click)="abrirModalBuscaProdutos()">
+              <img src="../../assets/icons/lupaIcon.png" style="max-width: 15px;align-self: center;color: white"
+                class="card-img-top" alt="...">
+              Buscar produtos
+            </button>
+          </div>
+          <div class="col-4 mt-4">
+            <button type="button" class="btn btn-success btn-sm float-end" (click)="salvar()">Salvar</button>
+          </div>
+        </div>
+        <div>
+          <table class="table table-striped mt-5 border">
+            <thead>
+              <tr>
+                <th scope="col">Produto</th>
+                <th scope="col">Valor do produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container formArrayName="listaProdutos" *ngFor="let group of listaProdutos.controls ; let i = index">
+                <tr [formGroupName]="i">
+                  <th scope="col">
+                    <div class="row">
+                      <div class="col-10">
+                        <input class="form-control form-control-md mb-2" type="text" name="dscProduto"
+                          placeholder="Descrição do produto" formControlName="dscProduto" [readonly]="true">
+                      </div>
+                      <div class="col-2">
+
+                      </div>
+                    </div>
+
+                  </th>
+                  <th scope="col">
+                    <input class="form-control form-control-md mb-2" type="text" name="vlrUnitarioVenda"
+                      placeholder="Valor do produto" formControlName="vlrUnitarioVenda">
+                  </th>
+                  <th scope="col">
+                    <input class="form-control form-control-md mb-2" type="text" name="qtdVenda"
+                      placeholder="Quantidade" formControlName="qtdVenda">
+                  </th>
+                  <th scope="col">
+                    <button class="btn btn-sm btn-danger float-end mt-1" (click)="excluirItem(i)">
+                      <img src="../../assets/icons/excluirIcon.png"
+                        style="max-width: 15px;align-self: center;color: white" class="card-img-top" alt="...">
+                    </button>
+                  </th>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
